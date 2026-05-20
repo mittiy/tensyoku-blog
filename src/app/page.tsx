@@ -1,65 +1,105 @@
-import Image from "next/image";
+import Link from "next/link";
+import { getAllPosts, CATEGORY_LABELS, CATEGORY_COLORS } from "@/lib/posts";
+import PostCard from "@/components/PostCard";
 
-export default function Home() {
+export default function HomePage() {
+  const allPosts = getAllPosts();
+  const latestPosts = allPosts.slice(0, 6);
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
+    <>
+      {/* Hero */}
+      <section className="bg-gradient-to-br from-orange-500 to-orange-700 text-white">
+        <div className="max-w-5xl mx-auto px-4 py-16 sm:py-24">
+          <h1 className="text-3xl sm:text-4xl font-bold leading-tight mb-4">
+            工場・建設・土木業界への
+            <br />
+            転職を成功させよう
           </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+          <p className="text-orange-100 text-base sm:text-lg max-w-xl leading-relaxed mb-8">
+            求人の探し方から面接対策、職場環境まで。現場を知り尽くした転職情報をお届けします。
           </p>
+          <div className="flex flex-wrap gap-3">
+            {(["factory", "construction", "civil"] as const).map((cat) => (
+              <Link
+                key={cat}
+                href={`/categories/${cat}`}
+                className="inline-flex items-center px-5 py-2.5 bg-white text-orange-700 font-semibold rounded-full text-sm hover:bg-orange-50 transition-colors shadow"
+              >
+                {CATEGORY_LABELS[cat]}の記事を見る
+              </Link>
+            ))}
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </section>
+
+      {/* Category cards */}
+      <section className="max-w-5xl mx-auto px-4 py-12">
+        <h2 className="text-xl font-bold text-gray-900 mb-6">カテゴリーから探す</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          {(
+            [
+              {
+                cat: "factory" as const,
+                icon: "🏭",
+                desc: "ライン作業・機械オペレーター・品質管理など工場勤務の転職情報",
+              },
+              {
+                cat: "construction" as const,
+                icon: "🏗️",
+                desc: "施工管理・大工・電気工事など建設業界への転職ガイド",
+              },
+              {
+                cat: "civil" as const,
+                icon: "🚧",
+                desc: "道路・橋梁・トンネルなど土木工事の仕事と転職情報",
+              },
+            ] as const
+          ).map(({ cat, icon, desc }) => {
+            const { text } = CATEGORY_COLORS[cat];
+            return (
+              <Link
+                key={cat}
+                href={`/categories/${cat}`}
+                className="group bg-white rounded-xl border border-gray-200 p-6 hover:shadow-md transition-shadow"
+              >
+                <div className="text-4xl mb-3">{icon}</div>
+                <h3 className={`font-bold text-lg mb-2 ${text}`}>
+                  {CATEGORY_LABELS[cat]}
+                </h3>
+                <p className="text-sm text-gray-600 leading-relaxed">{desc}</p>
+                <div className="mt-4 text-sm font-medium text-orange-600 group-hover:text-orange-700">
+                  記事を見る →
+                </div>
+              </Link>
+            );
+          })}
         </div>
-      </main>
-    </div>
+      </section>
+
+      {/* Latest posts */}
+      <section className="max-w-5xl mx-auto px-4 pb-16">
+        <div className="flex items-center justify-between mb-6">
+          <h2 className="text-xl font-bold text-gray-900">最新記事</h2>
+          <Link
+            href="/blog"
+            className="text-sm text-orange-600 hover:text-orange-700 font-medium"
+          >
+            すべての記事を見る →
+          </Link>
+        </div>
+        {latestPosts.length === 0 ? (
+          <p className="text-gray-500 text-center py-12">
+            記事がまだありません。
+          </p>
+        ) : (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {latestPosts.map((post) => (
+              <PostCard key={post.slug} post={post} />
+            ))}
+          </div>
+        )}
+      </section>
+    </>
   );
 }
