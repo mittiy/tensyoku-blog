@@ -24,7 +24,7 @@ export default function PostCard({ post }: Props) {
           <time className="text-xs text-gray-400">{formatDate(post.date)}</time>
         </div>
 
-        <Link href={`/blog/${post.slug}`}>
+        <Link href={`/blog/${post.category}/${post.slug}`}>
           <h2 className="text-lg font-bold text-gray-900 hover:text-orange-600 transition-colors leading-snug mb-2">
             {post.title}
           </h2>
@@ -48,7 +48,7 @@ export default function PostCard({ post }: Props) {
         )}
 
         <Link
-          href={`/blog/${post.slug}`}
+          href={`/blog/${post.category}/${post.slug}`}
           className="inline-flex items-center text-sm font-medium text-orange-600 hover:text-orange-700 transition-colors"
         >
           続きを読む →

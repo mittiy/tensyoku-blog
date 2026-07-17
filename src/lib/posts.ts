@@ -37,16 +37,26 @@ export const CATEGORY_COLORS: Record<
   civil: { bg: "bg-green-100", text: "text-green-800", border: "border-green-200" },
 };
 
-function getPostFiles(): string[] {
-  if (!fs.existsSync(postsDirectory)) return [];
-  return fs.readdirSync(postsDirectory).filter((f) => f.endsWith(".md"));
+const VALID_CATEGORIES: PostFrontmatter["category"][] = ["factory", "construction", "civil"];
+
+function getAllPostFiles(): { category: PostFrontmatter["category"]; filename: string }[] {
+  const results: { category: PostFrontmatter["category"]; filename: string }[] = [];
+  for (const cat of VALID_CATEGORIES) {
+    const dir = path.join(postsDirectory, cat);
+    if (!fs.existsSync(dir)) continue;
+    const files = fs.readdirSync(dir).filter((f) => f.endsWith(".md"));
+    for (const f of files) {
+      results.push({ category: cat, filename: f });
+    }
+  }
+  return results;
 }
 
 export function getAllPosts(): PostMeta[] {
-  const files = getPostFiles();
-  const posts = files.map((filename) => {
+  const files = getAllPostFiles();
+  const posts = files.map(({ category, filename }) => {
     const slug = filename.replace(/\.md$/, "");
-    const filePath = path.join(postsDirectory, filename);
+    const filePath = path.join(postsDirectory, category, filename);
     const source = fs.readFileSync(filePath, "utf-8");
     const { data } = matter(source);
     return { slug, ...(data as PostFrontmatter) };
@@ -57,8 +67,8 @@ export function getAllPosts(): PostMeta[] {
   );
 }
 
-export function getPostBySlug(slug: string): Post | null {
-  const filePath = path.join(postsDirectory, `${slug}.md`);
+export function getPostBySlug(category: string, slug: string): Post | null {
+  const filePath = path.join(postsDirectory, category, `${slug}.md`);
   if (!fs.existsSync(filePath)) return null;
   const source = fs.readFileSync(filePath, "utf-8");
   const { data, content } = matter(source);
@@ -71,6 +81,9 @@ export function getPostsByCategory(
   return getAllPosts().filter((post) => post.category === category);
 }
 
-export function getAllSlugs(): string[] {
-  return getPostFiles().map((f) => f.replace(/\.md$/, ""));
+export function getAllSlugs(): { category: string; slug: string }[] {
+  return getAllPostFiles().map(({ category, filename }) => ({
+    category,
+    slug: filename.replace(/\.md$/, ""),
+  }));
 }

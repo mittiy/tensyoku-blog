@@ -2,20 +2,21 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { MDXRemote } from "next-mdx-remote/rsc";
+import remarkGfm from "remark-gfm";
 import { getAllSlugs, getPostBySlug } from "@/lib/posts";
 import CategoryBadge from "@/components/CategoryBadge";
 
 type Props = {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ category: string; slug: string }>;
 };
 
 export async function generateStaticParams() {
-  return getAllSlugs().map((slug) => ({ slug }));
+  return getAllSlugs().map(({ category, slug }) => ({ category, slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { slug } = await params;
-  const post = getPostBySlug(slug);
+  const { category, slug } = await params;
+  const post = getPostBySlug(category, slug);
   if (!post) return {};
   return {
     title: post.title,
@@ -32,8 +33,8 @@ function formatDate(dateStr: string): string {
 }
 
 export default async function BlogPostPage({ params }: Props) {
-  const { slug } = await params;
-  const post = getPostBySlug(slug);
+  const { category, slug } = await params;
+  const post = getPostBySlug(category, slug);
   if (!post) notFound();
 
   return (
@@ -79,7 +80,10 @@ export default async function BlogPostPage({ params }: Props) {
 
       {/* Article body */}
       <article className="prose-content">
-        <MDXRemote source={post.content} />
+        <MDXRemote
+          source={post.content}
+          options={{ mdxOptions: { remarkPlugins: [remarkGfm] } }}
+        />
       </article>
 
       <hr className="border-gray-200 my-10" />
