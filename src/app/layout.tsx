@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://genba-tensyoku.com"),
   title: {
     default: "工場・建設・土木 転職ナビ",
     template: "%s | 工場・建設・土木 転職ナビ",
