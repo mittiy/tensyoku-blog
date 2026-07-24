@@ -42,6 +42,27 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Shikaku guide banner */}
+      <section className="max-w-5xl mx-auto px-4 pt-10">
+        <Link
+          href="/shikaku"
+          className="group flex flex-col sm:flex-row sm:items-center gap-4 bg-white rounded-xl border-2 border-orange-200 p-6 hover:border-orange-400 hover:shadow-md transition-all"
+        >
+          <div className="text-4xl">🎓</div>
+          <div className="flex-1 min-w-0">
+            <h2 className="font-bold text-lg text-gray-900 mb-1">
+              職種別・必要資格まとめ【総集編】
+            </h2>
+            <p className="text-sm text-gray-600 leading-relaxed">
+              工場・建設・土木の全職種について、最初に取る資格からステップアップ資格までを一覧で整理した保存版ガイドです。
+            </p>
+          </div>
+          <div className="text-sm font-semibold text-orange-600 group-hover:text-orange-700 whitespace-nowrap">
+            資格ガイドを見る →
+          </div>
+        </Link>
+      </section>
+
       {/* Category cards */}
       <section className="max-w-5xl mx-auto px-4 py-12">
         <h2 className="text-xl font-bold text-gray-900 mb-6">カテゴリーから探す</h2>

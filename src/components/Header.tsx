@@ -32,6 +32,13 @@ export default function Header() {
               <span aria-hidden>📰</span>
               記事一覧
             </Link>
+            <Link
+              href="/shikaku"
+              className="flex items-center gap-1.5 px-3.5 py-1.5 text-sm font-medium text-gray-600 bg-white border border-gray-200 rounded-full hover:text-orange-600 hover:border-orange-300 hover:bg-orange-50 hover:shadow-sm transition-all"
+            >
+              <span aria-hidden>🎓</span>
+              資格ガイド
+            </Link>
             {(["factory", "construction", "civil"] as const).map((cat) => (
               <Link
                 key={cat}
