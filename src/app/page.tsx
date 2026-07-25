@@ -55,23 +55,40 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Shikaku guide banner */}
-      <section className="max-w-5xl mx-auto px-4 pt-10">
+      {/* Guide banners */}
+      <section className="max-w-5xl mx-auto px-4 pt-10 grid grid-cols-1 sm:grid-cols-2 gap-4">
         <Link
           href="/shikaku"
-          className="group flex flex-col sm:flex-row sm:items-center gap-4 bg-white rounded-xl border-2 border-orange-200 p-6 hover:border-orange-400 hover:shadow-md transition-all"
+          className="group flex items-start gap-4 bg-white rounded-xl border-2 border-orange-200 p-6 hover:border-orange-400 hover:shadow-md transition-all"
         >
           <div className="text-4xl">🎓</div>
-          <div className="flex-1 min-w-0">
+          <div className="min-w-0">
             <h2 className="font-bold text-lg text-gray-900 mb-1">
-              職種別・必要資格まとめ【総集編】
+              職種別・必要資格まとめ
             </h2>
-            <p className="text-sm text-gray-600 leading-relaxed">
-              工場・建設・土木の全職種について、最初に取る資格からステップアップ資格までを一覧で整理した保存版ガイドです。
+            <p className="text-sm text-gray-600 leading-relaxed mb-2">
+              全職種の「最初に取る資格→ステップアップ資格」を一覧で整理した保存版。
             </p>
+            <span className="text-sm font-semibold text-orange-600 group-hover:text-orange-700">
+              資格ガイドを見る →
+            </span>
           </div>
-          <div className="text-sm font-semibold text-orange-600 group-hover:text-orange-700 whitespace-nowrap">
-            資格ガイドを見る →
+        </Link>
+        <Link
+          href="/nenshu"
+          className="group flex items-start gap-4 bg-white rounded-xl border-2 border-orange-200 p-6 hover:border-orange-400 hover:shadow-md transition-all"
+        >
+          <div className="text-4xl">💰</div>
+          <div className="min-w-0">
+            <h2 className="font-bold text-lg text-gray-900 mb-1">
+              スキル・資格別の年収まとめ
+            </h2>
+            <p className="text-sm text-gray-600 leading-relaxed mb-2">
+              職種別の平均年収ランキングと資格手当の相場を実データで整理。
+            </p>
+            <span className="text-sm font-semibold text-orange-600 group-hover:text-orange-700">
+              年収ガイドを見る →
+            </span>
           </div>
         </Link>
       </section>

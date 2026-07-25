@@ -37,7 +37,14 @@ export default function Header() {
               className="flex items-center gap-1.5 px-3.5 py-1.5 text-sm font-medium text-gray-600 bg-white border border-gray-200 rounded-full hover:text-orange-600 hover:border-orange-300 hover:bg-orange-50 hover:shadow-sm transition-all"
             >
               <span aria-hidden>🎓</span>
-              資格ガイド
+              資格<span className="hidden sm:inline">ガイド</span>
+            </Link>
+            <Link
+              href="/nenshu"
+              className="flex items-center gap-1.5 px-3.5 py-1.5 text-sm font-medium text-gray-600 bg-white border border-gray-200 rounded-full hover:text-orange-600 hover:border-orange-300 hover:bg-orange-50 hover:shadow-sm transition-all"
+            >
+              <span aria-hidden>💰</span>
+              年収<span className="hidden sm:inline">ガイド</span>
             </Link>
             {(["factory", "construction", "civil"] as const).map((cat) => (
               <Link

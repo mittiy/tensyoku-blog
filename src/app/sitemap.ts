@@ -21,6 +21,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE_URL },
     { url: `${BASE_URL}/blog` },
     { url: `${BASE_URL}/shikaku` },
+    { url: `${BASE_URL}/nenshu` },
     ...categories,
     ...posts,
   ];
