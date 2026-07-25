@@ -1,11 +1,24 @@
 import Link from "next/link";
 import { getAllPosts, CATEGORY_LABELS, CATEGORY_COLORS } from "@/lib/posts";
-import PostCard from "@/components/PostCard";
 import HeroIllustration from "@/components/HeroIllustration";
+
+const CATEGORY_THUMBS = {
+  factory: { icon: "🏭", gradient: "from-blue-100 to-blue-200" },
+  construction: { icon: "🏗️", gradient: "from-orange-100 to-orange-200" },
+  civil: { icon: "🚧", gradient: "from-green-100 to-green-200" },
+} as const;
+
+function formatDate(dateStr: string): string {
+  return new Date(dateStr).toLocaleDateString("ja-JP", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+}
 
 export default function HomePage() {
   const allPosts = getAllPosts();
-  const latestPosts = allPosts.slice(0, 6);
+  const latestPosts = allPosts.slice(0, 7);
 
   return (
     <>
@@ -109,25 +122,57 @@ export default function HomePage() {
 
       {/* Latest posts */}
       <section className="max-w-5xl mx-auto px-4 pb-16">
-        <div className="flex items-center justify-between mb-6">
-          <h2 className="text-xl font-bold text-gray-900">最新記事</h2>
-          <Link
-            href="/blog"
-            className="text-sm text-orange-600 hover:text-orange-700 font-medium"
-          >
-            すべての記事を見る →
-          </Link>
-        </div>
+        <h2 className="text-xl font-bold text-gray-900 mb-6">最新記事</h2>
         {latestPosts.length === 0 ? (
           <p className="text-gray-500 text-center py-12">
             記事がまだありません。
           </p>
         ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            {latestPosts.map((post) => (
-              <PostCard key={post.slug} post={post} />
-            ))}
-          </div>
+          <>
+            <div className="bg-white rounded-xl border border-gray-200 divide-y divide-gray-100 overflow-hidden">
+              {latestPosts.map((post) => {
+                const thumb = CATEGORY_THUMBS[post.category];
+                const colors = CATEGORY_COLORS[post.category];
+                return (
+                  <Link
+                    key={`${post.category}-${post.slug}`}
+                    href={`/blog/${post.category}/${post.slug}`}
+                    className="group flex items-center gap-4 p-4 hover:bg-orange-50/60 transition-colors"
+                  >
+                    <div
+                      className={`w-24 h-16 sm:w-28 sm:h-[72px] flex-shrink-0 rounded-lg bg-gradient-to-br ${thumb.gradient} flex items-center justify-center text-3xl sm:text-4xl`}
+                      aria-hidden
+                    >
+                      {thumb.icon}
+                    </div>
+                    <div className="min-w-0">
+                      <div className="flex items-center gap-2 mb-1.5">
+                        <span
+                          className={`text-xs px-2 py-0.5 rounded border ${colors.bg} ${colors.text} ${colors.border}`}
+                        >
+                          {CATEGORY_LABELS[post.category]}
+                        </span>
+                        <time className="text-xs text-gray-400">
+                          {formatDate(post.date)}
+                        </time>
+                      </div>
+                      <h3 className="font-semibold text-gray-900 leading-snug group-hover:text-orange-700 transition-colors">
+                        {post.title}
+                      </h3>
+                    </div>
+                  </Link>
+                );
+              })}
+            </div>
+            <div className="mt-8 text-center">
+              <Link
+                href="/blog"
+                className="inline-flex items-center px-6 py-2.5 bg-gradient-to-b from-orange-500 to-orange-600 text-white font-semibold rounded-full text-sm hover:from-orange-600 hover:to-orange-700 transition-all shadow-sm"
+              >
+                過去記事を見る →
+              </Link>
+            </div>
+          </>
         )}
       </section>
     </>
