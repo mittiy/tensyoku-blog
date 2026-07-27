@@ -5,6 +5,7 @@ const CATEGORY_ICONS: Record<PostFrontmatter["category"], string> = {
   factory: "🏭",
   construction: "🏗️",
   civil: "🚧",
+  market: "📈",
 };
 
 export default function Header() {
@@ -46,7 +47,7 @@ export default function Header() {
               <span aria-hidden>💰</span>
               年収<span className="hidden sm:inline">ガイド</span>
             </Link>
-            {(["factory", "construction", "civil"] as const).map((cat) => (
+            {(["factory", "construction", "civil", "market"] as const).map((cat) => (
               <Link
                 key={cat}
                 href={`/categories/${cat}`}

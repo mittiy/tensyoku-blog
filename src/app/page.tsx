@@ -6,6 +6,7 @@ const CATEGORY_THUMBS = {
   factory: { icon: "🏭", gradient: "from-blue-100 to-blue-200" },
   construction: { icon: "🏗️", gradient: "from-orange-100 to-orange-200" },
   civil: { icon: "🚧", gradient: "from-green-100 to-green-200" },
+  market: { icon: "📈", gradient: "from-purple-100 to-purple-200" },
 } as const;
 
 function formatDate(dateStr: string): string {
@@ -96,7 +97,7 @@ export default function HomePage() {
       {/* Category cards */}
       <section className="max-w-5xl mx-auto px-4 py-12">
         <h2 className="text-xl font-bold text-gray-900 mb-6">カテゴリーから探す</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {(
             [
               {
@@ -113,6 +114,11 @@ export default function HomePage() {
                 cat: "civil" as const,
                 icon: "🚧",
                 desc: "道路・橋梁・トンネルなど土木工事の仕事と転職情報",
+              },
+              {
+                cat: "market" as const,
+                icon: "📈",
+                desc: "求人倍率・賃金・地域別動向など転職市場の最新レポート",
               },
             ] as const
           ).map(({ cat, icon, desc }) => {

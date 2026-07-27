@@ -13,6 +13,7 @@ const VALID_CATEGORIES: PostFrontmatter["category"][] = [
   "factory",
   "construction",
   "civil",
+  "market",
 ];
 
 const CATEGORY_DESCRIPTIONS: Record<PostFrontmatter["category"], string> = {
@@ -22,6 +23,8 @@ const CATEGORY_DESCRIPTIONS: Record<PostFrontmatter["category"], string> = {
     "建設業界への転職情報。施工管理・大工・電気工事・設備工事など建設現場のリアルをお届けします。",
   civil:
     "土木工事業界への転職情報。道路・橋梁・トンネル・河川など公共インフラを支える仕事の魅力を紹介します。",
+  market:
+    "現場仕事の転職市場レポート。求人倍率・賃金動向・地域別の動きなど、最新の市場データをお届けします。",
 };
 
 type Props = {
@@ -39,10 +42,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
   const cat = category as PostFrontmatter["category"];
   return {
-    title: `${CATEGORY_LABELS[cat]}の転職情報`,
+    title: CATEGORY_TITLES[cat],
     description: CATEGORY_DESCRIPTIONS[cat],
   };
 }
+
+const CATEGORY_TITLES: Record<PostFrontmatter["category"], string> = {
+  factory: "工場の転職情報",
+  construction: "建設業の転職情報",
+  civil: "土木の転職情報",
+  market: "転職市場レポート",
+};
 
 export default async function CategoryPage({ params }: Props) {
   const { category } = await params;
@@ -59,6 +69,7 @@ export default async function CategoryPage({ params }: Props) {
     factory: "🏭",
     construction: "🏗️",
     civil: "🚧",
+    market: "📈",
   };
 
   return (
@@ -77,7 +88,7 @@ export default async function CategoryPage({ params }: Props) {
         <div className="flex items-center gap-3 mb-2">
           <span className="text-3xl">{ICONS[cat]}</span>
           <h1 className={`text-2xl font-bold ${text}`}>
-            {CATEGORY_LABELS[cat]}の転職情報
+            {CATEGORY_TITLES[cat]}
           </h1>
         </div>
         <p className="text-gray-600 text-sm leading-relaxed">

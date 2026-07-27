@@ -8,7 +8,7 @@ export type PostFrontmatter = {
   title: string;
   date: string;
   excerpt: string;
-  category: "factory" | "construction" | "civil";
+  category: "factory" | "construction" | "civil" | "market";
   tags: string[];
   coverImage?: string;
 };
@@ -26,6 +26,7 @@ export const CATEGORY_LABELS: Record<PostFrontmatter["category"], string> = {
   factory: "工場",
   construction: "建設業",
   civil: "土木",
+  market: "転職市場",
 };
 
 export const CATEGORY_COLORS: Record<
@@ -35,9 +36,10 @@ export const CATEGORY_COLORS: Record<
   factory: { bg: "bg-blue-100", text: "text-blue-800", border: "border-blue-200" },
   construction: { bg: "bg-orange-100", text: "text-orange-800", border: "border-orange-200" },
   civil: { bg: "bg-green-100", text: "text-green-800", border: "border-green-200" },
+  market: { bg: "bg-purple-100", text: "text-purple-800", border: "border-purple-200" },
 };
 
-const VALID_CATEGORIES: PostFrontmatter["category"][] = ["factory", "construction", "civil"];
+const VALID_CATEGORIES: PostFrontmatter["category"][] = ["factory", "construction", "civil", "market"];
 
 function getAllPostFiles(): { category: PostFrontmatter["category"]; filename: string }[] {
   const results: { category: PostFrontmatter["category"]; filename: string }[] = [];

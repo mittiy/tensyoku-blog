@@ -12,7 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
 
   const categories: MetadataRoute.Sitemap = (
-    ["factory", "construction", "civil"] as const
+    ["factory", "construction", "civil", "market"] as const
   ).map((cat) => ({
     url: `${BASE_URL}/categories/${cat}`,
   }));
