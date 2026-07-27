@@ -146,7 +146,7 @@ export default function HomePage() {
           </p>
         ) : (
           <>
-            <div className="bg-white rounded-xl border border-gray-200 divide-y divide-gray-100 overflow-hidden">
+            <div className="space-y-4">
               {latestPosts.map((post) => {
                 const thumb = CATEGORY_THUMBS[post.category];
                 const colors = CATEGORY_COLORS[post.category];
@@ -154,7 +154,7 @@ export default function HomePage() {
                   <Link
                     key={`${post.category}-${post.slug}`}
                     href={`/blog/${post.category}/${post.slug}`}
-                    className="group flex items-center gap-4 p-4 hover:bg-orange-50/60 transition-colors"
+                    className="group flex items-center gap-4 p-4 bg-white rounded-xl border border-gray-200 hover:border-orange-300 hover:shadow-md transition-all"
                   >
                     <div
                       className={`w-24 h-16 sm:w-28 sm:h-[72px] flex-shrink-0 rounded-lg bg-gradient-to-br ${thumb.gradient} flex items-center justify-center text-3xl sm:text-4xl`}

@@ -129,6 +129,13 @@ const SECTIONS: FieldSection[] = [
         articleHref: "/blog/construction/site-manager-career",
         articleLabel: "施工管理技士への転職ガイド",
       },
+      {
+        job: "左官",
+        first: "左官技能士3級",
+        stepUp: "1級左官技能士／登録左官基幹技能者",
+        articleHref: "/blog/construction/sakan-career",
+        articleLabel: "左官職人への転職ガイド",
+      },
     ],
   },
   {
@@ -183,6 +190,13 @@ const SECTIONS: FieldSection[] = [
         stepUp: "舗装施工管理技術者／2級土木施工管理技士",
         articleHref: "/blog/civil/paving-worker",
         articleLabel: "舗装工への転職ガイド",
+      },
+      {
+        job: "解体工",
+        first: "車両系建設機械（解体用）",
+        stepUp: "石綿作業主任者／解体工事施工技士",
+        articleHref: "/blog/civil/demolition-worker",
+        articleLabel: "解体工への転職ガイド",
       },
     ],
   },
