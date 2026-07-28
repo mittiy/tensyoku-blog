@@ -86,6 +86,14 @@ body {
   font-style: italic;
 }
 
+.prose-content img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1.75rem auto;
+  border-radius: 0.75rem;
+}
+
 .prose-content table {
   width: 100%;
   border-collapse: collapse;

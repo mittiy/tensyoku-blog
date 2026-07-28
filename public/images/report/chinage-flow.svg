@@ -1,0 +1,28 @@
+<svg viewBox="0 0 700 240" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect width="700" height="240" rx="16" fill="#fff7ed"/>
+  <text x="350" y="42" text-anchor="middle" font-size="20" font-weight="bold" fill="#9a3412">給料が上がる仕組みが動き出した（2026年）</text>
+
+  <!-- box 1 -->
+  <rect x="35" y="75" width="190" height="110" rx="12" fill="#ffffff" stroke="#fdba74"/>
+  <text x="130" y="112" text-anchor="middle" font-size="26">🏛️</text>
+  <text x="130" y="140" text-anchor="middle" font-size="13" font-weight="bold" fill="#7c2d12">国と業界団体が合意</text>
+  <text x="130" y="162" text-anchor="middle" font-size="12" fill="#78716c">「職人の給料を6%上げる」</text>
+
+  <text x="243" y="138" font-size="20" fill="#ea580c">→</text>
+
+  <!-- box 2 -->
+  <rect x="270" y="75" width="190" height="110" rx="12" fill="#ffffff" stroke="#fdba74"/>
+  <text x="365" y="112" text-anchor="middle" font-size="26">💴</text>
+  <text x="365" y="140" text-anchor="middle" font-size="13" font-weight="bold" fill="#7c2d12">公共工事の人件費単価</text>
+  <text x="365" y="162" text-anchor="middle" font-size="12" fill="#78716c">+4.5%引き上げ</text>
+
+  <text x="478" y="138" font-size="20" fill="#ea580c">→</text>
+
+  <!-- box 3 -->
+  <rect x="505" y="75" width="160" height="110" rx="12" fill="#ffffff" stroke="#fdba74"/>
+  <text x="585" y="112" text-anchor="middle" font-size="26">👷</text>
+  <text x="585" y="140" text-anchor="middle" font-size="13" font-weight="bold" fill="#7c2d12">現場で働く人の</text>
+  <text x="585" y="162" text-anchor="middle" font-size="13" font-weight="bold" fill="#ea580c">給料アップへ</text>
+
+  <text x="350" y="218" text-anchor="middle" font-size="12" fill="#a8a29e">※どこまで反映されるかは会社しだい。だから「会社選び」が重要</text>
+</svg>

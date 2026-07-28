@@ -1,0 +1,27 @@
+<svg viewBox="0 0 700 130" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <defs>
+    <linearGradient id="gh" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0369a1"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="130" rx="16" fill="url(#gh)"/>
+  <!-- snow + factory -->
+  <g fill="#ffffff" opacity="0.25">
+    <circle cx="500" cy="35" r="4"/>
+    <circle cx="545" cy="60" r="3"/>
+    <circle cx="590" cy="30" r="4"/>
+    <circle cx="640" cy="55" r="3"/>
+    <circle cx="670" cy="28" r="4"/>
+  </g>
+  <g fill="#ffffff" opacity="0.18">
+    <rect x="540" y="75" width="120" height="55"/>
+    <polygon points="540,75 570,55 570,75"/>
+    <polygon points="570,75 600,55 600,75"/>
+    <polygon points="600,75 630,55 630,75"/>
+    <rect x="640" y="45" width="12" height="30"/>
+  </g>
+  <text x="40" y="60" font-size="34">❄️</text>
+  <text x="95" y="58" font-size="24" font-weight="bold" fill="#ffffff">北海道</text>
+  <text x="95" y="90" font-size="15" fill="#e0f2fe">千歳のラピダス関連で正社員求人が拡大</text>
+</svg>

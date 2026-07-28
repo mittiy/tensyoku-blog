@@ -1,0 +1,36 @@
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect width="700" height="400" rx="16" fill="#ffffff" stroke="#e7e5e4"/>
+  <text x="350" y="44" text-anchor="middle" font-size="20" font-weight="bold" fill="#292524">2026年7月・地域別のひとこと要約</text>
+
+  <!-- Kanto -->
+  <rect x="30" y="70" width="310" height="140" rx="12" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="60" y="115" font-size="30">🏙️</text>
+  <text x="105" y="108" font-size="16" font-weight="bold" fill="#1e40af">関東</text>
+  <text x="105" y="132" font-size="13" fill="#44403c">東京都心の再開発ラッシュが</text>
+  <text x="105" y="152" font-size="13" fill="#44403c">2030年代半ばまで続く</text>
+  <text x="105" y="182" font-size="12" font-weight="bold" fill="#1e40af">→ 施工管理・職人の争奪戦</text>
+
+  <!-- Kansai -->
+  <rect x="360" y="70" width="310" height="140" rx="12" fill="#fff7ed" stroke="#fed7aa"/>
+  <text x="390" y="115" font-size="30">🎡</text>
+  <text x="435" y="108" font-size="16" font-weight="bold" fill="#9a3412">関西</text>
+  <text x="435" y="132" font-size="13" fill="#44403c">万博後も需要は旺盛。</text>
+  <text x="435" y="152" font-size="13" fill="#44403c">7割の会社が「人手不足で断る」</text>
+  <text x="435" y="182" font-size="12" font-weight="bold" fill="#ea580c">→ 転職者が条件を選べる</text>
+
+  <!-- Kyushu -->
+  <rect x="30" y="230" width="310" height="140" rx="12" fill="#f0fdf4" stroke="#bbf7d0"/>
+  <text x="60" y="275" font-size="30">🔬</text>
+  <text x="105" y="268" font-size="16" font-weight="bold" fill="#166534">九州・熊本</text>
+  <text x="105" y="292" font-size="13" fill="#44403c">半導体求人687件が高止まり。</text>
+  <text x="105" y="312" font-size="13" fill="#44403c">未経験可の求人が中心</text>
+  <text x="105" y="342" font-size="12" font-weight="bold" fill="#166534">→ 地方でも高収入を狙える</text>
+
+  <!-- Hokkaido -->
+  <rect x="360" y="230" width="310" height="140" rx="12" fill="#f0f9ff" stroke="#bae6fd"/>
+  <text x="390" y="275" font-size="30">❄️</text>
+  <text x="435" y="268" font-size="16" font-weight="bold" fill="#075985">北海道</text>
+  <text x="435" y="292" font-size="13" fill="#44403c">千歳のラピダス関連で</text>
+  <text x="435" y="312" font-size="13" fill="#44403c">製造業の正社員求人が拡大</text>
+  <text x="435" y="342" font-size="12" font-weight="bold" fill="#075985">→ 研修つき未経験求人が豊富</text>
+</svg>

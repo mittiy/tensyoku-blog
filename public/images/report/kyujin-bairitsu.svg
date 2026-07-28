@@ -1,0 +1,30 @@
+<svg viewBox="0 0 700 340" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect width="700" height="340" rx="16" fill="#fff7ed"/>
+  <text x="350" y="44" text-anchor="middle" font-size="22" font-weight="bold" fill="#9a3412">「有効求人倍率」とは？</text>
+  <text x="350" y="72" text-anchor="middle" font-size="14" fill="#78716c">仕事を探す人1人に対して、求人が何件あるかを表す数字</text>
+
+  <rect x="150" y="90" width="400" height="44" rx="10" fill="#ffffff" stroke="#fdba74"/>
+  <text x="350" y="118" text-anchor="middle" font-size="15" font-weight="bold" fill="#7c2d12">求人の数 ÷ 仕事を探す人の数 ＝ 求人倍率</text>
+
+  <!-- row 1: average -->
+  <text x="60" y="185" font-size="14" fill="#57534e">全職業の平均</text>
+  <text x="70" y="218" font-size="26">🧑</text>
+  <text x="115" y="212" font-size="14" fill="#a8a29e">→</text>
+  <text x="140" y="218" font-size="26">📄</text>
+  <text x="180" y="212" font-size="15" font-weight="bold" fill="#57534e">1.18件</text>
+  <text x="260" y="212" font-size="12" fill="#a8a29e">ほぼ1人に1件</text>
+
+  <!-- row 2: kutai -->
+  <text x="60" y="265" font-size="14" fill="#57534e">建設躯体工事</text>
+  <text x="70" y="300" font-size="26">🧑</text>
+  <text x="115" y="294" font-size="14" fill="#a8a29e">→</text>
+  <text x="140" y="300" font-size="26">📄</text>
+  <text x="172" y="300" font-size="26">📄</text>
+  <text x="204" y="300" font-size="26">📄</text>
+  <text x="236" y="300" font-size="26">📄</text>
+  <text x="268" y="300" font-size="26">📄</text>
+  <text x="300" y="300" font-size="26">📄</text>
+  <text x="332" y="300" font-size="26">📄</text>
+  <text x="372" y="294" font-size="15" font-weight="bold" fill="#ea580c">7.48件！</text>
+  <text x="455" y="294" font-size="12" fill="#a8a29e">1人を7社以上で取り合う状態</text>
+</svg>

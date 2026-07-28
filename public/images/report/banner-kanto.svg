@@ -1,0 +1,20 @@
+<svg viewBox="0 0 700 130" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <defs>
+    <linearGradient id="gk" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1d4ed8"/>
+      <stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="130" rx="16" fill="url(#gk)"/>
+  <!-- skyline -->
+  <g fill="#ffffff" opacity="0.18">
+    <rect x="480" y="55" width="34" height="75"/>
+    <rect x="522" y="30" width="42" height="100"/>
+    <rect x="572" y="62" width="30" height="68"/>
+    <rect x="610" y="42" width="38" height="88"/>
+    <rect x="656" y="70" width="24" height="60"/>
+  </g>
+  <text x="40" y="60" font-size="34">🏙️</text>
+  <text x="95" y="58" font-size="24" font-weight="bold" fill="#ffffff">関東</text>
+  <text x="95" y="90" font-size="15" fill="#dbeafe">都心再開発ラッシュで人材の争奪戦</text>
+</svg>
