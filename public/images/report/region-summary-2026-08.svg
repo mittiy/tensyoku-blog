@@ -1,0 +1,52 @@
+<svg viewBox="0 0 700 560" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect width="700" height="560" rx="16" fill="#ffffff" stroke="#e7e5e4"/>
+  <text x="350" y="44" text-anchor="middle" font-size="20" font-weight="bold" fill="#292524">2026年8月・地域別のひとこと要約</text>
+
+  <!-- Kanto -->
+  <rect x="30" y="70" width="310" height="140" rx="12" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="60" y="115" font-size="30">🏙️</text>
+  <text x="105" y="108" font-size="16" font-weight="bold" fill="#1e40af">関東</text>
+  <text x="105" y="132" font-size="13" fill="#44403c">再開発は猛暑でも進行中。</text>
+  <text x="105" y="152" font-size="13" fill="#44403c">秋着工案件の採用が今動く</text>
+  <text x="105" y="182" font-size="12" font-weight="bold" fill="#1e40af">→ お盆明けが応募の狙い目</text>
+
+  <!-- Kansai -->
+  <rect x="360" y="70" width="310" height="140" rx="12" fill="#fff7ed" stroke="#fed7aa"/>
+  <text x="390" y="115" font-size="30">🎡</text>
+  <text x="435" y="108" font-size="16" font-weight="bold" fill="#9a3412">関西</text>
+  <text x="435" y="132" font-size="13" fill="#44403c">IR関連工事が本格化へ。</text>
+  <text x="435" y="152" font-size="13" fill="#44403c">人手不足は今月も継続</text>
+  <text x="435" y="182" font-size="12" font-weight="bold" fill="#ea580c">→ 経験者は条件交渉の好機</text>
+
+  <!-- Tokai -->
+  <rect x="30" y="230" width="310" height="140" rx="12" fill="#fef2f2" stroke="#fecaca"/>
+  <text x="60" y="275" font-size="30">🚗</text>
+  <text x="105" y="268" font-size="16" font-weight="bold" fill="#991b1b">東海</text>
+  <text x="105" y="292" font-size="13" fill="#44403c">EV・電池関連の投資続く。</text>
+  <text x="105" y="312" font-size="13" fill="#44403c">保全・電気系の需要が堅調</text>
+  <text x="105" y="342" font-size="12" font-weight="bold" fill="#991b1b">→ 最低賃金UPで時給も底上げ</text>
+
+  <!-- Kyushu -->
+  <rect x="360" y="230" width="310" height="140" rx="12" fill="#f0fdf4" stroke="#bbf7d0"/>
+  <text x="390" y="275" font-size="30">🔬</text>
+  <text x="435" y="268" font-size="16" font-weight="bold" fill="#166534">九州・熊本</text>
+  <text x="435" y="292" font-size="13" fill="#44403c">TSMC第2工場が今秋着工へ。</text>
+  <text x="435" y="312" font-size="13" fill="#44403c">建設×半導体の求人が重なる</text>
+  <text x="435" y="342" font-size="12" font-weight="bold" fill="#166534">→ 建設職も半導体特需に乗れる</text>
+
+  <!-- Hokkaido -->
+  <rect x="30" y="390" width="310" height="140" rx="12" fill="#f0f9ff" stroke="#bae6fd"/>
+  <text x="60" y="435" font-size="30">❄️</text>
+  <text x="105" y="428" font-size="16" font-weight="bold" fill="#075985">北海道</text>
+  <text x="105" y="452" font-size="13" fill="#44403c">ラピダス2027年量産へ前進。</text>
+  <text x="105" y="472" font-size="13" fill="#44403c">試作成功で計画は順調</text>
+  <text x="105" y="502" font-size="12" font-weight="bold" fill="#075985">→ 量産前の今が入りやすい</text>
+
+  <!-- National -->
+  <rect x="360" y="390" width="310" height="140" rx="12" fill="#faf5ff" stroke="#e9d5ff"/>
+  <text x="390" y="435" font-size="30">💴</text>
+  <text x="435" y="428" font-size="16" font-weight="bold" fill="#6b21a8">全国トピック</text>
+  <text x="435" y="452" font-size="13" fill="#44403c">最低賃金の目安+55円(1,176円)。</text>
+  <text x="435" y="472" font-size="13" fill="#44403c">10月ごろから順次適用へ</text>
+  <text x="435" y="502" font-size="12" font-weight="bold" fill="#6b21a8">→ 時給で働く人は要チェック</text>
+</svg>
