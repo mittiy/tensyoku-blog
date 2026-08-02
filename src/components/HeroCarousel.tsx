@@ -78,7 +78,7 @@ export default function HeroCarousel() {
 
   return (
     <section
-      className="lg:max-w-6xl lg:mx-auto lg:px-4 lg:pt-6"
+      className="lg:max-w-[1536px] lg:mx-auto lg:px-6 lg:pt-6"
       aria-label="ピックアップ"
     >
       <div className="relative w-full aspect-[16/9] overflow-hidden bg-orange-600 lg:rounded-2xl shadow-sm">
