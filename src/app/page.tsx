@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { getAllPosts, CATEGORY_LABELS, CATEGORY_COLORS } from "@/lib/posts";
-import HeroIllustration from "@/components/HeroIllustration";
+import HeroCarousel from "@/components/HeroCarousel";
 
 const CATEGORY_THUMBS = {
   factory: { icon: "🏭", gradient: "from-blue-100 to-blue-200" },
@@ -23,38 +23,12 @@ export default function HomePage() {
 
   return (
     <>
-      {/* Hero */}
-      <section className="bg-gradient-to-br from-orange-500 to-orange-700 text-white overflow-hidden">
-        <div className="max-w-5xl mx-auto px-4 py-12 sm:py-16 flex flex-col lg:flex-row items-center gap-8">
-          {/* テキスト */}
-          <div className="flex-1 min-w-0">
-            <h1 className="text-3xl sm:text-4xl font-bold leading-tight mb-4">
-              工場・建設・土木業界への
-              <br />
-              転職を成功させよう
-            </h1>
-            <p className="text-orange-100 text-base sm:text-lg max-w-xl leading-relaxed mb-8">
-              求人の探し方から面接対策、職場環境まで。現場を知り尽くした転職情報をお届けします。
-            </p>
-            <div className="flex flex-wrap gap-3">
-              {(["factory", "construction", "civil"] as const).map((cat) => (
-                <Link
-                  key={cat}
-                  href={`/categories/${cat}`}
-                  className="inline-flex items-center px-5 py-2.5 bg-white text-orange-700 font-semibold rounded-full text-sm hover:bg-orange-50 transition-colors shadow"
-                >
-                  {CATEGORY_LABELS[cat]}の記事を見る
-                </Link>
-              ))}
-            </div>
-          </div>
+      <h1 className="sr-only">
+        工場・建設・土木 転職ナビ｜現場仕事の転職情報サイト
+      </h1>
 
-          {/* イラスト */}
-          <div className="w-full lg:w-[480px] lg:flex-shrink-0">
-            <HeroIllustration />
-          </div>
-        </div>
-      </section>
+      {/* Hero */}
+      <HeroCarousel />
 
       {/* Guide banners */}
       <section className="max-w-5xl mx-auto px-4 pt-10 grid grid-cols-1 sm:grid-cols-2 gap-4">
