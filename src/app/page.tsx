@@ -96,22 +96,26 @@ export default function HomePage() {
               },
             ] as const
           ).map(({ cat, icon, desc }) => {
-            const { text } = CATEGORY_COLORS[cat];
+            const { bg, text, border } = CATEGORY_COLORS[cat];
             return (
               <Link
                 key={cat}
                 href={`/categories/${cat}`}
-                className="group bg-white rounded-xl border border-gray-200 p-6 hover:shadow-md transition-shadow"
+                className="group bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-md transition-shadow"
               >
-                <div className="flex items-center gap-3 mb-2 sm:block sm:mb-0">
-                  <div className="text-3xl sm:text-4xl sm:mb-3">{icon}</div>
-                  <h3 className={`font-bold text-lg sm:mb-2 ${text}`}>
+                <div
+                  className={`flex items-center gap-2.5 px-5 py-3 border-b ${bg} ${border}`}
+                >
+                  <span className="text-2xl">{icon}</span>
+                  <h3 className={`font-bold text-lg ${text}`}>
                     {CATEGORY_LABELS[cat]}
                   </h3>
                 </div>
-                <p className="text-sm text-gray-600 leading-relaxed">{desc}</p>
-                <div className="mt-4 text-sm font-medium text-orange-600 group-hover:text-orange-700">
-                  記事を見る →
+                <div className="p-5">
+                  <p className="text-sm text-gray-600 leading-relaxed">{desc}</p>
+                  <div className="mt-4 text-sm font-medium text-orange-600 group-hover:text-orange-700">
+                    記事を見る →
+                  </div>
                 </div>
               </Link>
             );
