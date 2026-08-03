@@ -103,10 +103,12 @@ export default function HomePage() {
                 href={`/categories/${cat}`}
                 className="group bg-white rounded-xl border border-gray-200 p-6 hover:shadow-md transition-shadow"
               >
-                <div className="text-4xl mb-3">{icon}</div>
-                <h3 className={`font-bold text-lg mb-2 ${text}`}>
-                  {CATEGORY_LABELS[cat]}
-                </h3>
+                <div className="flex items-center gap-3 mb-2 sm:block sm:mb-0">
+                  <div className="text-3xl sm:text-4xl sm:mb-3">{icon}</div>
+                  <h3 className={`font-bold text-lg sm:mb-2 ${text}`}>
+                    {CATEGORY_LABELS[cat]}
+                  </h3>
+                </div>
                 <p className="text-sm text-gray-600 leading-relaxed">{desc}</p>
                 <div className="mt-4 text-sm font-medium text-orange-600 group-hover:text-orange-700">
                   記事を見る →
