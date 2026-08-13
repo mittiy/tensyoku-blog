@@ -3,6 +3,7 @@ title: 大工への転職ガイド｜職人の世界に飛び込む前に知っ�
 date: 2026-05-13
 excerpt: 木造大工・型枠大工・内装大工の違い、弟子入りから独立までのキャリアパス、年収の実態を解説します。
 category: construction
+coverImage: /images/thumbs/carpenter-career.jpg
 tags: [大工, 職人, 木造, キャリアパス]
 ---
 
