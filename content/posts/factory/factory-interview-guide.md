@@ -3,6 +3,7 @@ title: 工場勤務の面接対策ガイド｜よく聞かれる質問と志望�
 date: 2026-07-26
 excerpt: 工場・製造業の面接でよく聞かれる質問、受かる志望動機の組み立て方、服装・逆質問のマナーまで実践的に解説します。
 category: factory
+coverImage: /images/thumbs/factory-interview-guide.jpg
 tags: [面接対策, 志望動機, 転職活動, 逆質問]
 ---
 

@@ -3,6 +3,7 @@ title: 建設業の資格一覧・取得順ロードマップ｜未経験から�
 date: 2026-07-16
 excerpt: 建設業で役立つ資格を難易度・年収インパクト順に整理。未経験入職から施工管理技士まで、取得すべき順番をロードマップで解説します。
 category: construction
+coverImage: /images/thumbs/certification-roadmap.jpg
 tags: [資格, ロードマップ, 施工管理技士, キャリアアップ]
 ---
 

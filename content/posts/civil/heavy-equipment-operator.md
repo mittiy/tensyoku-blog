@@ -3,6 +3,7 @@ title: 重機オペレーターへの転職ガイド｜資格・仕事内容・�
 date: 2026-05-11
 excerpt: バックホウ・クレーン・ブルドーザーなど重機オペレーターの種類と必要資格、年収相場を現場目線で解説します。
 category: civil
+coverImage: /images/thumbs/heavy-equipment-operator.jpg
 tags: [重機, オペレーター, バックホウ, クレーン]
 ---
 

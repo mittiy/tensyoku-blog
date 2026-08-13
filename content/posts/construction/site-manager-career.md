@@ -3,6 +3,7 @@ title: 施工管理技士への転職ガイド｜資格取得から年収アッ�
 date: 2026-05-10
 excerpt: 建設業界で需要が高い施工管理技士。未経験からの転職方法・必要資格・年収相場を詳しく解説します。
 category: construction
+coverImage: /images/thumbs/site-manager-career.jpg
 tags: [施工管理, 建設業, 資格, 年収]
 ---
 

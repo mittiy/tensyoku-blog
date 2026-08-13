@@ -3,6 +3,7 @@ title: 土木の仕事の魅力と転職成功のコツ｜インフラを支え�
 date: 2026-05-05
 excerpt: 道路・橋・ダムなど社会インフラを作る土木の仕事。その魅力・給料・転職のポイントをわかりやすく解説します。
 category: civil
+coverImage: /images/thumbs/engineering-job-appeal.jpg
 tags: [土木, インフラ, 転職, 重機]
 ---
 

@@ -3,6 +3,7 @@ title: 未経験から土木作業員になるには｜仕事内容・1日の流
 date: 2026-07-24
 excerpt: 未経験で土木作業員に転職するための完全ガイド。実際の仕事内容と1日の流れ、給料の実態、作業員から施工管理へのキャリアパスを解説します。
 category: civil
+coverImage: /images/thumbs/doboku-beginners-guide.jpg
 tags: [未経験, 土木作業員, キャリアパス, 1日の流れ]
 ---
 

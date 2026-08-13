@@ -18,6 +18,17 @@ function formatDate(dateStr: string): string {
 export default function PostCard({ post }: Props) {
   return (
     <article className="bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-shadow overflow-hidden">
+      {post.coverImage && (
+        <Link href={`/blog/${post.category}/${post.slug}`} className="block">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={post.coverImage}
+            alt=""
+            className="w-full aspect-[16/9] object-cover"
+            loading="lazy"
+          />
+        </Link>
+      )}
       <div className="p-6">
         <div className="flex items-center gap-2 mb-3">
           <CategoryBadge category={post.category} asLink />

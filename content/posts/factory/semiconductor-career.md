@@ -3,6 +3,7 @@ title: 半導体工場への転職ガイド｜クリーンルーム勤務の実�
 date: 2026-07-25
 excerpt: 国内投資が加速する半導体工場への転職。クリーンルーム勤務の実態、仕事内容、年収相場、将来性を解説します。
 category: factory
+coverImage: /images/thumbs/semiconductor-career.jpg
 tags: [半導体, クリーンルーム, 将来性, 製造オペレーター]
 ---
 

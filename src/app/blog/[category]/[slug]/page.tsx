@@ -21,6 +21,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: post.title,
     description: post.excerpt,
+    openGraph: post.coverImage
+      ? { images: [{ url: post.coverImage }] }
+      : undefined,
   };
 }
 
@@ -75,6 +78,15 @@ export default async function BlogPostPage({ params }: Props) {
           </div>
         )}
       </header>
+
+      {post.coverImage && (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img
+          src={post.coverImage}
+          alt=""
+          className="w-full aspect-[16/9] object-cover rounded-xl mb-8"
+        />
+      )}
 
       <hr className="border-gray-200 mb-8" />
 

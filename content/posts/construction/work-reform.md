@@ -3,6 +3,7 @@ title: 建設業の働き方改革2024｜残業規制・週休2日の最新状�
 date: 2026-05-12
 excerpt: 2024年4月から建設業にも残業の上限規制が適用。週休2日推進の現状と転職市場への影響を解説します。
 category: construction
+coverImage: /images/thumbs/work-reform.jpg
 tags: [働き方改革, 残業規制, 週休2日, 2024年問題]
 ---
 

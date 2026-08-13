@@ -3,6 +3,7 @@ title: 電気工事士への転職ガイド｜資格取得から独立まで完�
 date: 2026-05-14
 excerpt: 第一種・第二種電気工事士の取得方法から、転職先の選び方・年収・独立の可能性まで詳しく解説します。
 category: construction
+coverImage: /images/thumbs/electrician-career.jpg
 tags: [電気工事士, 資格, 独立, 電気工事]
 ---
 

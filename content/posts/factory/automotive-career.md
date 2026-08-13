@@ -3,6 +3,7 @@ title: 自動車工場への転職ガイド｜大手メーカーから部品メ�
 date: 2026-05-16
 excerpt: トヨタ・ホンダ・日産など自動車工場への転職方法を解説。期間工・正社員・請負の違いや年収も比較します。
 category: factory
+coverImage: /images/thumbs/automotive-career.jpg
 tags: [自動車, 期間工, 正社員, トヨタ]
 ---
 

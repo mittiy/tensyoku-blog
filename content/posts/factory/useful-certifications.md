@@ -3,6 +3,7 @@ title: 工場・製造業で役立つ資格ランキング｜取得順序とコ�
 date: 2026-05-17
 excerpt: フォークリフト・危険物取扱者・電気工事士など、工場転職・年収アップに直結する資格を優先度順に紹介します。
 category: factory
+coverImage: /images/thumbs/useful-certifications.jpg
 tags: [資格, フォークリフト, 危険物取扱者, キャリアアップ]
 ---
 

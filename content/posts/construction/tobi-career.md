@@ -3,6 +3,7 @@ title: とび職への転職ガイド｜足場・鉄骨・重量とびの違い�
 date: 2026-07-14
 excerpt: 高所作業のスペシャリスト「とび職」。足場とび・鉄骨とび・重量とびの違い、必要資格、年収相場、キャリアパスを解説します。
 category: construction
+coverImage: /images/thumbs/tobi-career.jpg
 tags: [とび職, 足場, 職人, 高所作業]
 ---
 

@@ -3,6 +3,7 @@ title: 工場転職完全ガイド｜未経験から始める製造業の仕事
 date: 2026-05-15
 excerpt: 工場・製造業への転職を考えている未経験者向けに、仕事内容・給料・求人の探し方まで徹底解説します。
 category: factory
+coverImage: /images/thumbs/job-beginners-guide.jpg
 tags: [未経験, 求人, 製造業, ライン作業]
 ---
 

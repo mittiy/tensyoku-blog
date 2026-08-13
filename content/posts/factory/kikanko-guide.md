@@ -3,6 +3,7 @@ title: 期間工完全ガイド｜満了金で稼ぐ働き方と正社員登用�
 date: 2026-08-02
 excerpt: 自動車・半導体工場で働く期間工の給料の仕組み、満了金・入社祝い金の実態、寮生活、正社員登用まで。短期間で貯金したい人に向く働き方を解説します。
 category: factory
+coverImage: /images/thumbs/kikanko-guide.jpg
 tags: [期間工, 満了金, 寮, 正社員登用]
 ---
 

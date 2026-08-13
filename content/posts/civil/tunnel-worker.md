@@ -3,6 +3,7 @@ title: トンネル工事の仕事ガイド｜高日当の理由と必要資格�
 date: 2026-08-03
 excerpt: 山岳トンネルやシールド工事で働く仕事の内容、日当が高い理由、ずい道等作業主任者などの資格、キャリアパスを解説します。
 category: civil
+coverImage: /images/thumbs/tunnel-worker.jpg
 tags: [トンネル工事, シールド, 坑内作業, 高収入]
 ---
 

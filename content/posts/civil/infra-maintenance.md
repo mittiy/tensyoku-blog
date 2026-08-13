@@ -3,6 +3,7 @@ title: インフラメンテナンス業界への転職｜老朽化時代に需�
 date: 2026-07-23
 excerpt: 橋・トンネル・道路の老朽化で需要が急増するインフラメンテナンス業界。点検・補修の仕事内容、必要資格、将来性を解説します。
 category: civil
+coverImage: /images/thumbs/infra-maintenance.jpg
 tags: [インフラ点検, 維持補修, 将来性, ドローン]
 ---
 

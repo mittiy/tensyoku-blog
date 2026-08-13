@@ -3,6 +3,7 @@ title: 未経験から建設業への転職完全ガイド｜職種の選び方�
 date: 2026-07-17
 excerpt: 未経験で建設業に転職するための完全ガイド。主要職種の比較、会社選びのチェックポイント、志望動機の作り方まで解説します。
 category: construction
+coverImage: /images/thumbs/beginners-guide.jpg
 tags: [未経験, 転職, 職種比較, 志望動機]
 ---
 

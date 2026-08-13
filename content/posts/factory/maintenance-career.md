@@ -3,6 +3,7 @@ title: 設備保全・機械保全への転職ガイド｜工場を止めない�
 date: 2026-07-25
 excerpt: 工場の設備を守る保全職の仕事内容、機械保全技能士などの資格、年収相場を解説。オペレーターからのキャリアアップ先としても人気の職種です。
 category: factory
+coverImage: /images/thumbs/maintenance-career.jpg
 tags: [設備保全, 機械保全技能士, キャリアアップ, メンテナンス]
 ---
 

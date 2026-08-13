@@ -142,12 +142,22 @@ export default function HomePage() {
                     href={`/blog/${post.category}/${post.slug}`}
                     className="group flex items-center gap-4 p-4 bg-white rounded-xl border border-gray-200 hover:border-orange-300 hover:shadow-md transition-all"
                   >
-                    <div
-                      className={`w-24 h-16 sm:w-28 sm:h-[72px] flex-shrink-0 rounded-lg bg-gradient-to-br ${thumb.gradient} flex items-center justify-center text-3xl sm:text-4xl`}
-                      aria-hidden
-                    >
-                      {thumb.icon}
-                    </div>
+                    {post.coverImage ? (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img
+                        src={post.coverImage}
+                        alt=""
+                        className="w-24 h-16 sm:w-28 sm:h-[72px] flex-shrink-0 rounded-lg object-cover"
+                        loading="lazy"
+                      />
+                    ) : (
+                      <div
+                        className={`w-24 h-16 sm:w-28 sm:h-[72px] flex-shrink-0 rounded-lg bg-gradient-to-br ${thumb.gradient} flex items-center justify-center text-3xl sm:text-4xl`}
+                        aria-hidden
+                      >
+                        {thumb.icon}
+                      </div>
+                    )}
                     <div className="min-w-0">
                       <div className="flex items-center gap-2 mb-1.5">
                         <span
