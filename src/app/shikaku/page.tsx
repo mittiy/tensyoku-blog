@@ -219,6 +219,13 @@ const SECTIONS: FieldSection[] = [
         articleHref: "/blog/civil/tunnel-worker",
         articleLabel: "トンネル工事の仕事ガイド",
       },
+      {
+        job: "鉄筋工",
+        first: "玉掛け技能講習",
+        stepUp: "鉄筋施工技能士／登録鉄筋基幹技能者",
+        articleHref: "/blog/civil/tekkin-career",
+        articleLabel: "鉄筋工への転職ガイド",
+      },
     ],
   },
 ];
