@@ -3,6 +3,7 @@ title: 秋の資格試験は8月が仕込みどき｜今から間に合う現場
 date: 2026-08-06
 excerpt: 秋は現場系資格の試験シーズン。QC検定・施工管理技士・電気工事士など「8月に始めれば間に合う」資格と、働きながらの勉強計画の立て方を解説します。
 category: factory
+coverImage: /images/thumbs/shikaku-exam-autumn.jpg
 tags: [資格試験, 勉強計画, QC検定, 転職準備]
 ---
 

@@ -3,6 +3,7 @@ title: お盆の帰省はUターン転職のチャンス｜地元で現場仕事
 date: 2026-08-05
 excerpt: 帰省したタイミングは地元転職の絶好のリサーチ機会。地方で伸びる現場仕事(半導体・インフラ・建設)、帰省中にやること、都市部との年収差の考え方を解説します。
 category: market
+coverImage: /images/thumbs/uturn-tensyoku.jpg
 tags: [Uターン転職, 帰省, 地方転職, お盆]
 ---
 

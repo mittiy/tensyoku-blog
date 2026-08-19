@@ -3,6 +3,7 @@ title: お盆明けは求人が動く｜8月後半からの転職スケジュー
 date: 2026-08-05
 excerpt: 建設・工場の転職市場はお盆明けから秋着工・秋採用に向けて一気に動きます。8月後半〜10月の採用スケジュールと、お盆休み中にやっておく準備7つを解説します。
 category: construction
+coverImage: /images/thumbs/obon-ake-schedule.jpg
 tags: [お盆明け, 転職スケジュール, 秋採用, 準備リスト]
 ---
 

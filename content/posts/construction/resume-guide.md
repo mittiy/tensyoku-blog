@@ -3,6 +3,7 @@ title: 現場仕事の職務経歴書の書き方｜経験を「伝わる言葉�
 date: 2026-08-06
 excerpt: 「書くことがない」は思い込み。現場経験を採用担当に伝わる言葉に変換する棚卸しの手順、資格・工事経歴の書き方、そのまま使える構成例を解説します。
 category: construction
+coverImage: /images/thumbs/resume-guide.jpg
 tags: [職務経歴書, 履歴書, 書類選考, 転職準備]
 ---
 

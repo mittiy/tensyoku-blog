@@ -3,6 +3,7 @@ title: 工場のお盆休み事情｜大型連休の仕組みと「休みが多�
 date: 2026-08-04
 excerpt: 工場のお盆休みは何日ある?カレンダー通りじゃない製造業の連休の仕組み、休日出勤で稼ぐ選択肢、年間休日数の正しい見方を解説します。
 category: factory
+coverImage: /images/thumbs/obon-kyuka-guide.jpg
 tags: [お盆休み, 年間休日, 連休, 休日出勤]
 ---
 

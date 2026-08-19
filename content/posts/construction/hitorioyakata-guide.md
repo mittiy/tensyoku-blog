@@ -3,6 +3,7 @@ title: 一人親方と正社員どっちが得?｜手取り・保険・将来性
 date: 2026-08-14
 excerpt: 「独立すれば日当が上がる」は本当か。一人親方と正社員を手取り・社会保険・仕事の安定・将来性で比較し、独立に向くタイミングと準備を解説します。
 category: construction
+coverImage: /images/thumbs/hitorioyakata-guide.jpg
 tags: [一人親方, 独立, 社会保険, 働き方]
 ---
 

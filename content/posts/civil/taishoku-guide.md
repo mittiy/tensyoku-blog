@@ -3,6 +3,7 @@ title: 円満退職ガイド｜切り出し方・引き継ぎ・ボーナスま�
 date: 2026-08-06
 excerpt: 退職の切り出し方とタイミング、引き継ぎの進め方、ボーナス・有給の扱い、引き止めへの対応まで。現場仕事ならではの事情も含めた円満退職の手順を解説します。
 category: civil
+coverImage: /images/thumbs/taishoku-guide.jpg
 tags: [退職, 円満退職, 引き継ぎ, 転職準備]
 ---
 

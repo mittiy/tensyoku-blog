@@ -3,6 +3,7 @@ title: 塗装工への転職ガイド｜建物を守り彩る仕事の年収・�
 date: 2026-08-02
 excerpt: 外壁・屋根の塗り替えから橋梁の防錆まで、塗装工の仕事内容、塗装技能士などの資格、年収相場、独立の可能性を解説します。
 category: construction
+coverImage: /images/thumbs/tosou-career.jpg
 tags: [塗装工, 塗装技能士, 外壁塗装, 職人]
 ---
 

@@ -3,6 +3,7 @@ title: 鉄筋工への転職ガイド｜求人倍率7倍超の躯体職種で手
 date: 2026-08-14
 excerpt: コンクリート構造物の骨組みをつくる鉄筋工。仕事内容、鉄筋施工技能士などの資格、年収相場、人手不足で高まる市場価値を解説します。
 category: civil
+coverImage: /images/thumbs/tekkin-career.jpg
 tags: [鉄筋工, 躯体, 技能士, 人手不足]
 ---
 
