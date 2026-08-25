@@ -164,6 +164,13 @@ const SECTIONS: FieldSection[] = [
         articleHref: "/blog/construction/zoen-career",
         articleLabel: "造園職人への転職ガイド",
       },
+      {
+        job: "内装仕上げ",
+        first: "資格不要（ボード貼りから）",
+        stepUp: "内装仕上げ施工技能士2級→1級",
+        articleHref: "/blog/construction/naiso-career",
+        articleLabel: "内装仕上げ職人への転職ガイド",
+      },
     ],
   },
   {
@@ -246,6 +253,13 @@ const SECTIONS: FieldSection[] = [
         stepUp: "移動式クレーン運転士免許（5t以上）",
         articleHref: "/blog/civil/crane-operator",
         articleLabel: "クレーンオペレーターへの転職ガイド",
+      },
+      {
+        job: "上下水道工事",
+        first: "玉掛け／車両系建設機械",
+        stepUp: "給水装置工事主任技術者／土木施工管理技士",
+        articleHref: "/blog/civil/jogesuido-career",
+        articleLabel: "上下水道工事の仕事ガイド",
       },
     ],
   },
