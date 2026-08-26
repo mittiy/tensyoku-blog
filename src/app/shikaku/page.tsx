@@ -95,6 +95,13 @@ const SECTIONS: FieldSection[] = [
         articleHref: "/blog/factory/yosetsu-career",
         articleLabel: "溶接工への転職ガイド",
       },
+      {
+        job: "フォークリフト・構内物流",
+        first: "フォークリフト運転技能講習（最大4〜5日）",
+        stepUp: "玉掛け／はい作業主任者",
+        articleHref: "/blog/factory/forklift-career",
+        articleLabel: "フォークリフトの仕事完全ガイド",
+      },
     ],
   },
   {

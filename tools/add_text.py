@@ -50,6 +50,9 @@ TEXTS = {
     "jogesuido-career": ("上下水道工事の仕事", "老朽化対策で仕事が続く"),
     "naiso-career": ("内装仕上げ職人になる", "天候に左右されない働き方"),
     "haken-vs-seishain": ("派遣 vs 正社員", "工場で得なのはどっち?"),
+    "doboku-osusume-shokushu": ("土木のおすすめ職種", "入りやすさ×収入×将来性"),
+    "saigai-fukkyu-jobs": ("災害復旧の仕事", "安全に働くための基礎知識"),
+    "forklift-career": ("フォークリフトで稼ぐ", "5日で取れる一生モノ資格"),
 }
 
 def fit_font(draw, text, path, start, max_w):
