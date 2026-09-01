@@ -53,6 +53,9 @@ TEXTS = {
     "doboku-osusume-shokushu": ("土木のおすすめ職種", "入りやすさ×収入×将来性"),
     "saigai-fukkyu-jobs": ("災害復旧の仕事", "安全に働くための基礎知識"),
     "forklift-career": ("フォークリフトで稼ぐ", "5日で取れる一生モノ資格"),
+    "september-factory-jobs": ("9月の工場求人", "年末増産への助走が始まる"),
+    "typhoon-genba-guide": ("台風シーズンの現場", "休工の給料と備えの仕事"),
+    "autumn-doboku-season": ("土木の繁忙期は秋から", "転職は9月スタートが正解"),
 }
 
 def fit_font(draw, text, path, start, max_w):
