@@ -268,6 +268,13 @@ const SECTIONS: FieldSection[] = [
         articleHref: "/blog/civil/jogesuido-career",
         articleLabel: "上下水道工事の仕事ガイド",
       },
+      {
+        job: "交通誘導警備員",
+        first: "新任教育（法定研修・約3〜4日）",
+        stepUp: "交通誘導警備業務検定2級→1級",
+        articleHref: "/blog/civil/koutsu-yudo-keibi",
+        articleLabel: "交通誘導警備員の仕事ガイド",
+      },
     ],
   },
 ];

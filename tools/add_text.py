@@ -56,6 +56,9 @@ TEXTS = {
     "september-factory-jobs": ("9月の工場求人", "年末増産への助走が始まる"),
     "typhoon-genba-guide": ("台風シーズンの現場", "休工の給料と備えの仕事"),
     "autumn-doboku-season": ("土木の繁忙期は秋から", "転職は9月スタートが正解"),
+    "report-2026-09": ("転職市場レポート", "2026年9月号"),
+    "typhoon-taio-manual": ("台風が来た日の現場", "出勤判断と再開の手順"),
+    "koutsu-yudo-keibi": ("交通誘導警備員の仕事", "現場仕事のもう一つの入口"),
 }
 
 def fit_font(draw, text, path, start, max_w):
