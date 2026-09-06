@@ -34,6 +34,13 @@ export default function Header() {
               記事一覧
             </Link>
             <Link
+              href="/rirekisho"
+              className="flex items-center gap-1.5 px-2.5 sm:px-3.5 py-1.5 text-xs sm:text-sm font-semibold whitespace-nowrap text-orange-700 bg-orange-50 border border-orange-300 rounded-full hover:bg-orange-100 hover:border-orange-400 hover:shadow-sm transition-all"
+            >
+              <span aria-hidden className="hidden sm:inline">📝</span>
+              履歴書<span className="hidden sm:inline">作成</span>
+            </Link>
+            <Link
               href="/shikaku"
               className="flex items-center gap-1.5 px-2.5 sm:px-3.5 py-1.5 text-xs sm:text-sm font-medium whitespace-nowrap text-gray-600 bg-white border border-gray-200 rounded-full hover:text-orange-600 hover:border-orange-300 hover:bg-orange-50 hover:shadow-sm transition-all"
             >

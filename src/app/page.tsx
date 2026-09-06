@@ -30,6 +30,30 @@ export default function HomePage() {
       {/* Hero */}
       <HeroCarousel />
 
+      {/* 履歴書作成CTA */}
+      <section className="max-w-5xl mx-auto px-4 pt-8">
+        <Link
+          href="/rirekisho"
+          className="group flex flex-col sm:flex-row items-start sm:items-center gap-4 rounded-2xl bg-gradient-to-r from-orange-500 to-amber-500 p-6 sm:p-7 shadow-md hover:shadow-lg hover:from-orange-600 hover:to-amber-600 transition-all"
+        >
+          <div className="text-5xl drop-shadow-sm">📝</div>
+          <div className="min-w-0 flex-1">
+            <div className="inline-block bg-white/20 text-white text-[11px] font-bold px-2 py-0.5 rounded-full mb-1.5">
+              無料・登録不要
+            </div>
+            <h2 className="font-bold text-xl sm:text-2xl text-white mb-1">
+              履歴書かんたん作成ツール
+            </h2>
+            <p className="text-sm text-orange-50 leading-relaxed">
+              質問に答えていくだけで履歴書が完成。学歴・職歴の年月は自動計算、志望動機も選択式で自動作成。そのまま印刷・PDF保存できます。
+            </p>
+          </div>
+          <span className="shrink-0 bg-white text-orange-600 font-bold text-sm px-5 py-2.5 rounded-full shadow group-hover:scale-105 transition-transform">
+            作ってみる →
+          </span>
+        </Link>
+      </section>
+
       {/* Guide banners */}
       <section className="max-w-5xl mx-auto px-4 pt-10 grid grid-cols-1 sm:grid-cols-2 gap-4">
         <Link
