@@ -59,6 +59,9 @@ TEXTS = {
     "report-2026-09": ("転職市場レポート", "2026年9月号"),
     "typhoon-taio-manual": ("台風が来た日の現場", "出勤判断と再開の手順"),
     "koutsu-yudo-keibi": ("交通誘導警備員の仕事", "現場仕事のもう一つの入口"),
+    "kensa-kenpin-career": ("検査・検品の仕事", "工場で最も入りやすい職種"),
+    "katawaku-daiku-career": ("型枠大工で稼ぐ", "求人倍率トップクラスの躯体職"),
+    "building-mente-career": ("ビルメンという安定", "現場経験を活かす転身先"),
 }
 
 def fit_font(draw, text, path, start, max_w):
