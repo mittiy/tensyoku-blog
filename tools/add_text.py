@@ -62,6 +62,9 @@ TEXTS = {
     "kensa-kenpin-career": ("検査・検品の仕事", "工場で最も入りやすい職種"),
     "katawaku-daiku-career": ("型枠大工で稼ぐ", "求人倍率トップクラスの躯体職"),
     "building-mente-career": ("ビルメンという安定", "現場経験を活かす転身先"),
+    "kojo-ryo-guide": ("工場の寮・住み込み", "家賃ゼロで貯めるガイド"),
+    "yane-shokunin-career": ("屋根職人になる", "台風のたび需要が跳ねる仕事"),
+    "kyoryo-koji-career": ("橋梁工事の仕事", "架け替えの時代が来る"),
 }
 
 def fit_font(draw, text, path, start, max_w):

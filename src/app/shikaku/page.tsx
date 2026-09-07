@@ -199,6 +199,13 @@ const SECTIONS: FieldSection[] = [
         articleHref: "/blog/construction/building-mente-career",
         articleLabel: "ビル設備管理への転職ガイド",
       },
+      {
+        job: "屋根職人（板金・瓦）",
+        first: "フルハーネス／足場の組立て等特別教育",
+        stepUp: "建築板金技能士2級→1級／かわらぶき技能士",
+        articleHref: "/blog/construction/yane-shokunin-career",
+        articleLabel: "屋根職人への転職ガイド",
+      },
     ],
   },
   {
@@ -295,6 +302,13 @@ const SECTIONS: FieldSection[] = [
         stepUp: "交通誘導警備業務検定2級→1級",
         articleHref: "/blog/civil/koutsu-yudo-keibi",
         articleLabel: "交通誘導警備員の仕事ガイド",
+      },
+      {
+        job: "橋梁工事",
+        first: "玉掛け／高所作業車運転技能講習",
+        stepUp: "PC技士／橋梁点検士／土木施工管理技士",
+        articleHref: "/blog/civil/kyoryo-koji-career",
+        articleLabel: "橋梁工事の仕事ガイド",
       },
     ],
   },
