@@ -65,6 +65,9 @@ TEXTS = {
     "kojo-ryo-guide": ("工場の寮・住み込み", "家賃ゼロで貯めるガイド"),
     "yane-shokunin-career": ("屋根職人になる", "台風のたび需要が跳ねる仕事"),
     "kyoryo-koji-career": ("橋梁工事の仕事", "架け替えの時代が来る"),
+    "silverweek-tensyoku-junbi": ("シルバーウィーク活用術", "連休3日で転職準備"),
+    "jikyu-up-checklist": ("10月から時給が上がる", "損しないための5チェック"),
+    "sekokan-chokuzen-1month": ("2級土木 直前1ヶ月半", "過去問3周の追い込み方"),
 }
 
 def fit_font(draw, text, path, start, max_w):
