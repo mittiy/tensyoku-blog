@@ -68,6 +68,9 @@ TEXTS = {
     "silverweek-tensyoku-junbi": ("シルバーウィーク活用術", "連休3日で転職準備"),
     "jikyu-up-checklist": ("10月から時給が上がる", "損しないための5チェック"),
     "sekokan-chokuzen-1month": ("2級土木 直前1ヶ月半", "過去問3周の追い込み方"),
+    "seisan-kanri-career": ("生産管理という出世ルート", "現場経験が武器になる"),
+    "bousui-career": ("防水工になる", "改修時代の堅実な手に職"),
+    "norimen-koji-career": ("法面工で稼ぐ", "斜面を守る防災の最前線"),
 }
 
 def fit_font(draw, text, path, start, max_w):
