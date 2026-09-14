@@ -71,6 +71,9 @@ TEXTS = {
     "seisan-kanri-career": ("生産管理という出世ルート", "現場経験が武器になる"),
     "bousui-career": ("防水工になる", "改修時代の堅実な手に職"),
     "norimen-koji-career": ("法面工で稼ぐ", "斜面を守る防災の最前線"),
+    "plant-career": ("プラントで働く", "乙4から始まる高待遇の世界"),
+    "gaikou-career": ("外構職人になる", "家まわりを仕上げる仕事"),
+    "kasen-gogan-career": ("河川・護岸工事の仕事", "水害から街を守る"),
 }
 
 def fit_font(draw, text, path, start, max_w):
