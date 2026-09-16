@@ -74,6 +74,9 @@ TEXTS = {
     "plant-career": ("プラントで働く", "乙4から始まる高待遇の世界"),
     "gaikou-career": ("外構職人になる", "家まわりを仕上げる仕事"),
     "kasen-gogan-career": ("河川・護岸工事の仕事", "水害から街を守る"),
+    "nagame-osusume-shigoto": ("雨に強い仕事8選", "長雨でも収入が止まらない"),
+    "doboku-kaisha-erabi": ("土木の会社選び", "失敗しない7つのチェック"),
+    "soko-butsuryu-career": ("倉庫・物流で働く", "雨に強い屋内ワーク"),
 }
 
 def fit_font(draw, text, path, start, max_w):
