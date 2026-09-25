@@ -77,6 +77,9 @@ TEXTS = {
     "nagame-osusume-shigoto": ("雨に強い仕事8選", "長雨でも収入が止まらない"),
     "doboku-kaisha-erabi": ("土木の会社選び", "失敗しない7つのチェック"),
     "soko-butsuryu-career": ("倉庫・物流で働く", "雨に強い屋内ワーク"),
+    "kikai-kako-career": ("機械加工で手に職", "段取りを覚えて稼ぐ"),
+    "reform-shokunin-career": ("リフォーム職人になる", "直せる人が最強の時代"),
+    "josetsu-operator": ("除雪オペレーターの仕事", "冬に稼ぐ準備は秋から"),
 }
 
 def fit_font(draw, text, path, start, max_w):
