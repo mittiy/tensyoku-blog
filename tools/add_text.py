@@ -83,6 +83,10 @@ TEXTS = {
     "nyusha-junbi-checklist": ("10月入社の準備リスト", "書類・持ち物・最初の1ヶ月"),
     "fuyu-genba-junbi": ("冬の現場は10月から準備", "防寒装備と冬の危険"),
     "fuyu-bonus-tensyoku": ("ボーナス後に転職する", "10月から逆算する予定表"),
+    "tokyo-nagame-report-2026-09": ("東京35日連続の雨", "観測史上最長の長雨と現場"),
+    "press-kakou-career": ("プレス加工の仕事", "金型を覚えて評価を上げる"),
+    "kucho-setsubi-career": ("空調・ダクト設備工", "屋内中心で雨に強い設備職"),
+    "kui-kiso-career": ("杭打ち・基礎工事", "建物を地面の下から支える"),
 }
 
 def fit_font(draw, text, path, start, max_w):
