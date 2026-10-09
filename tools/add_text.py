@@ -87,6 +87,9 @@ TEXTS = {
     "press-kakou-career": ("プレス加工の仕事", "金型を覚えて評価を上げる"),
     "kucho-setsubi-career": ("空調・ダクト設備工", "屋内中心で雨に強い設備職"),
     "kui-kiso-career": ("杭打ち・基礎工事", "建物を地面の下から支える"),
+    "shashutsu-seikei-career": ("射出成形の仕事", "条件調整を覚えて評価を上げる"),
+    "elevator-career": ("エレベーター据付・保守", "景気に強い屋内の設備職"),
+    "kowan-sensui-career": ("港湾工事・潜水士", "海の現場で働く土木職"),
 }
 
 def fit_font(draw, text, path, start, max_w):
