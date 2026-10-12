@@ -90,6 +90,10 @@ TEXTS = {
     "shashutsu-seikei-career": ("射出成形の仕事", "条件調整を覚えて評価を上げる"),
     "elevator-career": ("エレベーター据付・保守", "景気に強い屋内の設備職"),
     "kowan-sensui-career": ("港湾工事・潜水士", "海の現場で働く土木職"),
+    "bankin-career": ("工場の板金工", "切って曲げて形にする"),
+    "shobo-setsubi-career": ("消防設備の仕事", "資格を増やして稼ぐ安定職"),
+    "tetsudo-hosen-career": ("鉄道の保線作業員", "終電後に線路を守る"),
+    "report-2026-10": ("転職市場レポート", "2026年10月号"),
 }
 
 def fit_font(draw, text, path, start, max_w):

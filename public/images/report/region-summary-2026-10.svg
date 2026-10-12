@@ -1,0 +1,36 @@
+<svg viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect width="700" height="360" rx="16" fill="#f8fafc"/>
+  <text x="350" y="38" text-anchor="middle" font-size="19" font-weight="bold" fill="#0f172a">2026年10月・地域別ひとことまとめ</text>
+
+  <rect x="40" y="60" width="300" height="80" rx="10" fill="#dbeafe"/>
+  <text x="190" y="88" text-anchor="middle" font-size="15" font-weight="bold" fill="#1d4ed8">関東</text>
+  <text x="190" y="112" text-anchor="middle" font-size="12" fill="#1e3a8a">東京の最低賃金は10/1から1,280円</text>
+  <text x="190" y="130" text-anchor="middle" font-size="12" fill="#1e3a8a">時給求人は新しい額で比べる</text>
+
+  <rect x="360" y="60" width="300" height="80" rx="10" fill="#fce7f3"/>
+  <text x="510" y="88" text-anchor="middle" font-size="15" font-weight="bold" fill="#be185d">関西</text>
+  <text x="510" y="112" text-anchor="middle" font-size="12" fill="#831843">大阪の全体倍率は0.95倍で全国最低</text>
+  <text x="510" y="130" text-anchor="middle" font-size="12" fill="#831843">ただし現場職・技能職は人手不足</text>
+
+  <rect x="40" y="150" width="300" height="80" rx="10" fill="#dcfce7"/>
+  <text x="190" y="178" text-anchor="middle" font-size="15" font-weight="bold" fill="#15803d">東海</text>
+  <text x="190" y="202" text-anchor="middle" font-size="12" fill="#14532d">愛知は10/1から1,195円(+55円)</text>
+  <text x="190" y="220" text-anchor="middle" font-size="12" fill="#14532d">期間工の募集時給にも反映</text>
+
+  <rect x="360" y="150" width="300" height="80" rx="10" fill="#ffedd5"/>
+  <text x="510" y="178" text-anchor="middle" font-size="15" font-weight="bold" fill="#c2410c">九州・熊本</text>
+  <text x="510" y="202" text-anchor="middle" font-size="12" fill="#7c2d12">10月下旬に復興プラン策定へ</text>
+  <text x="510" y="220" text-anchor="middle" font-size="12" fill="#7c2d12">熊本の最低賃金は12月発効</text>
+
+  <rect x="40" y="240" width="300" height="80" rx="10" fill="#e0e7ff"/>
+  <text x="190" y="268" text-anchor="middle" font-size="15" font-weight="bold" fill="#4338ca">北海道</text>
+  <text x="190" y="292" text-anchor="middle" font-size="12" fill="#312e81">ラピダスは27年度量産へ準備</text>
+  <text x="190" y="310" text-anchor="middle" font-size="12" fill="#312e81">冬の仕事(除雪など)の募集期</text>
+
+  <rect x="360" y="240" width="300" height="80" rx="10" fill="#fef9c3"/>
+  <text x="510" y="268" text-anchor="middle" font-size="15" font-weight="bold" fill="#a16207">全国共通</text>
+  <text x="510" y="292" text-anchor="middle" font-size="12" fill="#713f12">求人倍率1.18倍で横ばい(8月分)</text>
+  <text x="510" y="310" text-anchor="middle" font-size="12" fill="#713f12">製造業の新規求人は+3.9%</text>
+
+  <text x="350" y="348" text-anchor="middle" font-size="11" fill="#94a3b8">※2026年10月時点の公表情報をもとにした当サイト作成のまとめ</text>
+</svg>
