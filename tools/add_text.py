@@ -94,6 +94,10 @@ TEXTS = {
     "shobo-setsubi-career": ("消防設備の仕事", "資格を増やして稼ぐ安定職"),
     "tetsudo-hosen-career": ("鉄道の保線作業員", "終電後に線路を守る"),
     "report-2026-10": ("転職市場レポート", "2026年10月号"),
+    "chuzo-career": ("鋳造工という仕事", "溶けた鉄で形をつくる"),
+    "glass-sash-career": ("ガラス・サッシ職人", "建物の顔をつくる"),
+    "soudensen-career": ("送電線のラインマン", "鉄塔で電気の道を守る"),
+    "nenmatsu-chosei-2026": ("2026年の年末調整", "年収178万円まで税ゼロへ"),
 }
 
 def fit_font(draw, text, path, start, max_w):
