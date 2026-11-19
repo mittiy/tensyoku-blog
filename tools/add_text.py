@@ -102,7 +102,12 @@ TEXTS = {
     "chishitsu-boring-career": ("地質調査ボーリング", "地面の中を調べる仕事"),
     "report-2026-11": ("転職市場レポート", "2026年11月号"),
     "nenmatsu-chosei-2026": ("2026年の年末調整", "年収178万円まで税ゼロへ"),
+    "zousen-career": ("造船の仕事", "溶接・艤装で巨大な船をつくる"),
+    "hitode-busoku-chosa-2026-10": ("正社員不足53.6%", "2026年10月 人手不足調査"),
+    "jishin-ato-genba-tenken": ("地震のあとの足場点検", "愛知で震度5強 現場の備え"),
+    "nenmatsu-nenshi-tensyoku-2027": ("年末年始は転職準備", "2〜3月入社の逆算スケジュール"),
 }
+
 
 def fit_font(draw, text, path, start, max_w):
     size = start

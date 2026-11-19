@@ -165,6 +165,13 @@ const SECTIONS: FieldSection[] = [
         articleHref: "/blog/factory/kanagata-career",
         articleLabel: "金型工（金型職人）への転職ガイド",
       },
+      {
+        job: "造船技能者（溶接・艤装）",
+        first: "アーク溶接等の特別教育／玉掛け技能講習",
+        stepUp: "溶接士技量資格（日本海事協会）／クレーン・デリック運転士",
+        articleHref: "/blog/factory/zousen-career",
+        articleLabel: "造船の仕事（造船技能者）への転職ガイド",
+      },
     ],
   },
   {
